@@ -17,7 +17,7 @@
 
 - [site](https://zhdko.movies.nomoredomains.rocks/)
 - [Reposotory](https://github.com/Zhdko/movies-explorer-frontend)
-- [Pull request](https://github.com/Zhdko/movies-explorer-frontend/pull/2)
+- [Pull request](https://github.com/Zhdko/movies-explorer-full-api/pull/1)
 - [Макет Figma](https://disk.yandex.ru/d/G9VOrplCpbd_8w)
 
 ## Автор
