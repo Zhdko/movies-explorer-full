@@ -1,0 +1,28 @@
+.navigation {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.navigation__link {
+  font-family: 'Inter', Arial, sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.navigation_link_type_btn {
+  padding: 8px 20px;
+  color: #000;
+  background-color: #3ddc84;
+  border-radius: 3px;
+}
+@media screen and (max-width: 480px) {
+  .navigation {
+    gap: 14px;
+  }
+
+  .navigation__link {
+    font-size: 10px;
+  }
+}

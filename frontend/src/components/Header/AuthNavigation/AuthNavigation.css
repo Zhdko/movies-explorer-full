@@ -1,0 +1,121 @@
+.menu {
+  flex-grow: 2;
+}
+
+.auth-navigation {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.auth-navigation__link {
+  font-family: 'Inter', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.auth-navigation__item {
+  position: relative;
+}
+
+.auth-navigation__item_type_main {
+  display: none;
+}
+
+.active {
+  font-weight: 500;
+}
+
+.auth-navigation__item_type_profile {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  margin: 0 0 0 auto;
+  font-family: 'Inter', Arial, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.user-icon {
+  padding: 8px 7.25px;
+  background-color: #313131;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 768px) {
+  .menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    transition: opacity 0.2s linear;
+  }
+
+  .auth-navigation {
+    flex-direction: column;
+    padding: 159px 0 92px;
+    height: 100vh;
+    width: 520px;
+    box-sizing: border-box;
+    background-color: #202020;
+    z-index: 2;
+    gap: 28px;
+    margin-left: auto;
+    position: absolute;
+    top: 0;
+    right: -100%;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .auth-navigation_opened {
+    right: 0;
+    position: fixed;
+  }
+
+  .auth-navigation__item_type_profile {
+    margin: auto 0 0 0;
+  }
+  .auth-navigation__item_type_main {
+    display: block;
+  }
+
+  .menu_opened {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .auth-navigation__link {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21.78px;
+  }
+
+  .active:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    margin-top: 4px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .auth-navigation {
+    width: 100%;
+    padding: 144px 0 48px;
+  }
+
+  .menu {
+    background-color: inherit;
+  }
+}

@@ -1,35 +1,24 @@
-# movies-explorer-api
-
-# Проект Mesto-React
+# movies-explorer-frontend
 
 ## Содержание
 
 - [Обзор](#Обзор)
   - [Описание](#Описание)
   - [Ссылки](#Ссылки)
-- [Мой процесс](#Мой-процесс)
-  - [Построен с](#Построен-с)
 - [Автор](#Автор)
 
 ## Обзор
 
 ### Описание
 
-API приложения для аутентификации пользователей и сохранения фильмов в плейлист
+Фронтенд часть приложения для аутентификации пользователей и сохранения фильмов в плейлист
 
 ### Ссылки
 
-- [Домен сервера](http://api.zhdko.movies.nomoredomains.rocks)
-- [Reposotory](https://github.com/Zhdko/movies-explorer-api)
-
-### Построен с
-
-- ExpressJS
-- NodeJS
-- Nginx
-- MongoDB
-- Celebrate
-- Eslint
+- [site](https://zhdko.movies.nomoredomains.rocks/)
+- [Reposotory](https://github.com/Zhdko/movies-explorer-frontend)
+- [Pull request](https://github.com/Zhdko/movies-explorer-frontend/pull/2)
+- [Макет Figma](https://disk.yandex.ru/d/G9VOrplCpbd_8w)
 
 ## Автор
 
