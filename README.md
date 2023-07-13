@@ -58,8 +58,8 @@
   - Регистрация и авторизация;
 
   <p align='center'>
-  <img width='400'src='./images/functionality/registration.gif' alt='registration-form'/>
-  <img width='400' src='./images/functionality/signin.gif' />
+  <img width='300'src='./images/functionality/registration.gif' alt='registration-form'/>
+  <img width='300' src='./images/functionality/signin.gif' />
   </p>
 
   - Редактирование профиля;
