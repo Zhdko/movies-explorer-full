@@ -57,10 +57,10 @@
 
   - Регистрация и авторизация;
 
-  <p align='center'>
+<p align='center'>
   <img width='300'src='./images/functionality/registration.gif' alt='registration-form'/>
   <img width='300' src='./images/functionality/signin.gif' />
-  </p>
+</p>
 
   - Редактирование профиля;
 
