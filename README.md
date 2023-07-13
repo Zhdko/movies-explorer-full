@@ -138,6 +138,7 @@
    - GIT ( [Инструкция](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) )
    - MongoDB ( [Инструкция](https://mongodb.prakticum-team.ru/docs/manual/tutorial/install-mongodb-on-windows/#install-mdb-edition) )
    - NodeJS и npm ( [Инструкция](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) )</br>
+   > [Версии программ](#системные-требования), используемые в этом проекте
 
 2. Клонировать репозиторий и установить зависимости:
 
@@ -160,7 +161,7 @@
      npm install
      ```
 
-   - Установить зависимости серверно части:
+   - Установить зависимости серверной части:
 
      ```bash
      cd backend
